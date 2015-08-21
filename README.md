@@ -27,7 +27,8 @@ Implement the following algorithm to layout an array of frames satisfying the ab
   * @param {number} spacing between images in a row, in pixels
   * @returns {Array<Array<Object>>} array of rows of resized frames
 
- ```layoutFrames: function(images, containerWidth, maxRowHeight, spacing) {
+ ```javascript
+ layoutFrames: function(images, containerWidth, maxRowHeight, spacing) {
    // your solution~
  }
 ```
@@ -35,7 +36,7 @@ Implement the following algorithm to layout an array of frames satisfying the ab
 Use the function that you implemented above to build a prototype gallery with HTML/CSS. Please include all the UI elements in the attached image. Feel free to include additional UI polish, however.
 
 Your HTML should be easily modifiable to display arbitrary image sets. The attached image uses the following data:
-```
+```javascript
 var frames =
     [{ height: 360, width: 1000 },
      { height: 600, width: 400 },
